@@ -1,0 +1,5 @@
+https://www.electronicwings.com/nodemcu/http-server-on-nodemcu-with-arduino-ide#:~:text=NodeMCU%20has%20Station%20(STA)%20mode,address%20assigned%20by%20that%20network.&text=NodeMCU%20gets%20IP%20from%20the,wi%2Dfi%20device%20can%20connect.
+
+
+
+https://lastminuteengineers.com/creating-esp8266-web-server-arduino-ide/
