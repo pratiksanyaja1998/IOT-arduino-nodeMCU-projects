@@ -5,7 +5,7 @@
 // ESP8266 as HTTP Server using WiFi Station (STA) mode
 
 /*Put your SSID & Password*/
-const char* ssid = "PRATIK";  // Enter SSID here
+const char* ssid = "Pratik";  // Enter SSID here
 const char* password = "Gems@0321";  //Enter Password here
 
 ESP8266WebServer server(80);
