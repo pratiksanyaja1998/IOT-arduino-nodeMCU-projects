@@ -26,24 +26,10 @@ void setup() {
   WiFi.begin(ssid, password);
 
   //check wi-fi is connected to wi-fi network
-  // while (WiFi.status() != WL_CONNECTED) {
-  // delay(1000);
-  // Serial.print(".");
-  // }
-  int counter = 1;
-  while (WiFi.waitForConnectResult() != WL_CONNECTED) {
-    Serial.printf("STA: Failed!\n");
-    WiFi.disconnect(false);
-    counter++;
-    delay(1000);
-    WiFi.begin(ssid, password);
-    Serial.println("Connecting to ");
-    Serial.println(ssid);
-    Serial.println("With try of");
-    Serial.println(counter);
-    Serial.println("");
+  while (WiFi.status() != WL_CONNECTED) {
+  delay(1000);
+  Serial.print(".");
   }
-
   Serial.println("");
   Serial.println("WiFi connected..!");
   Serial.print("Got IP: ");  Serial.println(WiFi.localIP());
